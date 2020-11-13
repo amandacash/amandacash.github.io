@@ -66,15 +66,44 @@ ul ul:hover{
 	margin-left:450px; 
 }
 
-@media screen and (max-width: 768){
+@media screen and (max-width: 768px){
 
+.wrapper,
+.sidebar{
+	width:175px;
+	height:600px;
+	padding:20px;
+	font-size:15px;
+	padding-top:0px;
+}
+.parent{
+	font-size:50px;
+	padding-left:200px;
+	padding-top:200px;
+}
 }
 
-@media screen and (max-width: 991){
-
+@media screen and (max-width: 991px){
+.wrapper,
+.sidebar{
+	width:350px;
+	height:700px;
+	padding:20px;
+	font-size:33px;
+	padding-top:0px;
 }
 
-@media screen and (max-width: 1199){
+.parent{
+	font-size:80px;
+	padding-left:350px;
+	padding-top:175px;
+}
+}
+
+@media screen and (max-width: 1199px){
+	.parent{
+		padding-top:200px;
+	}
 
 }
 
