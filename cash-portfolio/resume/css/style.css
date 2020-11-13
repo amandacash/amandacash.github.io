@@ -1,0 +1,76 @@
+
+.resume{ 
+font-family:"Pacifico";
+color:white;
+font-size:40px;
+padding-left:440px; 
+padding-top:25px;
+}
+
+.text{
+color:white;
+font-family:"Arimo";
+font-size:16px;
+padding-left:450px; 
+padding-top:15px;
+}
+
+.wrapper{
+	display:flex;
+	position:relative;
+}
+
+.sidebar{
+	font-family:"Pacifico"
+}
+
+.wrapper, 
+.sidebar{
+	position: fixed;
+	width:400px;
+	height:1000px;
+	background-color: #152861;
+	padding: 45px 0;
+	font-size:40px;
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+ul ul {
+	padding: 40px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-bottom: 1px solid rgba(225,225,225,0.05);
+}
+
+.wrapper,
+.sidebar
+ul ul a{
+	color:#FFFFFF;
+	display:block;
+}
+ 
+ul ul a .fas{
+	width:35px;
+}
+
+ul ul:hover{
+	background:#1c3581;
+	width:400px;
+	padding:45px 0;
+}
+
+
+@media screen and (max-width: 768){
+
+}
+
+@media screen and (max-width: 991){
+
+}
+
+@media screen and (max-width: 1199){
+
+}
+
+font-family: 'Arimo', sans-serif;
+font-family: 'Pacifico', cursive;
