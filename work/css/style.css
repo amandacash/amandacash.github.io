@@ -63,16 +63,53 @@ ul ul:hover{
 
 
 @media screen and (max-width: 768){
-
+.wrapper,
+.sidebar{
+	width:150px;
+	height:1500px;
+	font-size:15px;
+	padding-top:0px;
+}
+.clickone{
+		font-size:15px;
+}
+.click{
+		font-size:18px;
+}
 }
 
-@media screen and (max-width: 991){
+@media screen and (min-width: 768px max-width: 991px){
 
+.wrapper,
+.sidebar{
+	width:350px;
+	height:700px;
+	font-size:33px;
+	padding-top:0px;
+}
+.clickone{
+		font-size:15px;
+}
+.click{
+		font-size:18px;
+}
 }
 
-@media screen and (max-width: 1199){
-
+@media screen and (min-width:992px max-width: 1199){
+	.clickone{
+		font-size:20px;
+	}
+	.click{
+		font-size:23px;
+	}
 }
-
+@media screen and (min-width:1200px){
+	.clickone{
+		font-size:20px;
+	}
+	.click{
+		font-size:23px;
+	}
+}
 font-family: 'Arimo', sans-serif;
 font-family: 'Pacifico', cursive;
