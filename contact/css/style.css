@@ -100,38 +100,40 @@ ul ul:hover{
 @media screen and (min-width:992px max-width: 1199){
 .wrapper,
 .sidebar{
-	width:400px;
-	height:1100px;
+	width:450px;
+	height:1200px;
 	padding:20px;
 	font-size:50px;
 	padding-top:0px;
 }	
 .contact{
-	font-size:65px;
+	font-size:90px;
 	padding-top:250px;
+	padding-left:500px;
 }
 .text{
-	font-size:20px;
+	font-size:30px;
+	padding-left:500px;
 }
 }
 
 @media screen and (min-width:1200px){
 .wrapper,
 .sidebar{
-	width:400px;
-	height:1100px;
+	width:450px;
+	height:1200px;
 	padding:20px;
 	font-size:50px;
 	padding-top:0px;
 }	
 .contact{
-	padding-left:475px;
-	font-size:65px;
+	padding-left:500px;
+	font-size:90px;
 	padding-top:250px;
 }
 .text{
-	padding-left:475px;
-	font-size:20px;
+	padding-left:500px;
+	font-size:30px;
 }
 }
 
