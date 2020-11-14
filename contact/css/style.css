@@ -60,17 +60,80 @@ ul ul:hover{
 
 
 @media screen and (max-width: 768){
-
+.wrapper,
+.sidebar{
+	width:200px;
+	height:2000px;
+	font-size:15px;
+	padding-top:0px;
+}
+.contact{
+	font-size:20px;
+	padding-left:300px;
+}
+.text{
+	font-size:15px;
+	padding-left:300px;
+}
 }
 
-@media screen and (max-width: 991){
-
+@media screen and (min-width: 768px max-width: 991px){
+.wrapper,
+.sidebar{
+	width:400px;
+	height:1100px;
+	padding:20px;
+	font-size:50px;
+	padding-top:0px;
+}
+.contact{
+	font-size:40px;
+	padding-top:225px;
+	padding-left:400px;
+}
+.text{
+	font-size:15px;
+	padding-left:400px;
+}
 }
 
-@media screen and (max-width: 1199){
-
+@media screen and (min-width:992px max-width: 1199){
+.wrapper,
+.sidebar{
+	width:400px;
+	height:1100px;
+	padding:20px;
+	font-size:50px;
+	padding-top:0px;
+}	
+.contact{
+	font-size:65px;
+	padding-top:250px;
+}
+.text{
+	font-size:20px;
+}
 }
 
+@media screen and (min-width:1200px){
+.wrapper,
+.sidebar{
+	width:400px;
+	height:1100px;
+	padding:20px;
+	font-size:50px;
+	padding-top:0px;
+}	
+.contact{
+	padding-left:475px;
+	font-size:65px;
+	padding-top:250px;
+}
+.text{
+	padding-left:475px;
+	font-size:20px;
+}
+}
 
 font-family: 'Arimo', sans-serif;
 font-family: 'Pacifico', cursive;

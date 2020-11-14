@@ -64,17 +64,54 @@ ul ul:hover{
 	padding:45px 0;
 }
 
+}
+@media screen and (max-width: 768px){
 
-@media screen and (max-width: 768){
+.wrapper,
+.sidebar{
+	width:150px;
+	height:600px;
+	padding:20px;
+	font-size:15px;
+}
+
+.about{
+	font-size:20px;
+}
+.text{
+	font-size:12px;
+}
+}
+
+@media screen and (max-width: 991px){
+.wrapper,
+.sidebar{
+	width:350px;
+	height:700px;
+	padding:20px;
+	font-size:33px;
+	padding-top:0px;
 
 }
 
-@media screen and (max-width: 991){
-
+@media screen and (max-width: 1199px){
+.wrapper,
+.sidebar{
+	width:450px;
+	height:1200px;
+	padding:20px;
+	font-size:60px;
+	padding-top:0px;
 }
 
-@media screen and (max-width: 1199){
-
+@media screen and (min-width:1200px){
+.wrapper,
+.sidebar{
+	width:450px;
+	height:1200px;
+	padding:20px;
+	font-size:60px;
+	padding-top:0px;
 }
 
 font-family: 'Arimo', sans-serif;
