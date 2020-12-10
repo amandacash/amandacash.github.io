@@ -1,0 +1,244 @@
+
+/*Colors
+red: B42033
+gray: CECECE
+white:FEFEFE
+blue: 3C3B6E*/
+
+h1{
+	color:#3C3B6E;
+	text-align: center;
+	font-family:"Cantana One";
+	padding-top:25px;
+}
+
+.byline{
+	color:black;
+	text-align:center;
+	font-size:16px;
+	font-family:"Imprima";
+}
+
+/*stars*/
+.far{
+	color:#3C3B6E;
+}
+
+.fas{
+	color:#B42033;
+	text-orientation: center;
+	padding-top:50px;
+}
+
+/*text*/
+.intro{
+	font-family:"Imprima";
+	margin-left:250px;
+	margin-right:250px;
+	text-align:center;
+	padding-top:25px;
+	font-size:16px;
+}
+
+.containerone{
+	padding-top:25px;
+	margin-left:325px;
+	margin-right:250px;
+}
+
+.col{
+	font-family: "Imprima";
+	font-size:16px;
+}
+.chart{
+	width:50%;
+	height:auto;
+}
+
+/*pullquotes*/
+.bigcontainer{
+	margin-top:20px;
+	background-color:#CECECE;
+	margin-left:250px;
+	margin-right:250px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:5px;
+	padding-right:5px;
+	font-family:"Cantata One";
+	font-size:16px;
+}
+
+.bigcontainertwo{
+	margin-top:20px;
+	margin-left:250px;
+	margin-right:250px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-family:"Cantata One";
+	font-size:16px;
+}
+
+.bigcontainerfour,.bigcontainersix,.bigcontainereight{
+	background-color:#CECECE;
+	padding-bottom:40px;
+}
+
+.extra{
+	font-family:"Imprima";
+	font-size:17px;
+}
+
+.swingstate{
+	font-family:"Cantata One";
+	font-size:30px;
+	padding-top:40px;
+	text-decoration: underline black;
+	text-align:center;
+	text-underline-position: black;
+}
+
+.list{
+	font-family:"Cantata One";
+	font-size:30px;
+	padding-top:40px;
+	text-align:center;
+	text-decoration: underline black;
+}
+
+.listtwo{
+	font-family:"Cantata One";
+	font-size:15px;
+	text-align:center;
+}
+.major{
+	font-family:"Cantata One";
+	font-size:30px;
+	padding-top:60px;
+	text-decoration: underline black;
+	text-align:center;
+	text-underline-position: black;
+}
+.reasons, .who{
+	font-family:"Cantata One";
+	font-size:25px;
+	padding-top:60px;
+	text-align:center;
+}
+
+/*dem*/
+.kennedy,.nixon,.carter,.gore,.bush,.trump,.biden{
+	padding-top:50px;
+	color:black;
+	font-family: "Cantata One";
+	font-size:23px;
+	text-align:center;
+}
+.kennedywin,.carterwin,.bidenwin{
+	color:#3C3B6E;
+	font-family:"Cantata One";
+	font-size:20px;
+	text-align:center;
+}
+.kennedytext,.nixontext,.cartertext,.goretext,.bushtext,.trumptext,.bidentext{
+	font-family:"Imprima";
+	font-size:16px;
+	text-align: center;
+}
+
+/*rep*/
+.nixonwin,.gorewin,.bushwin,.trumpwin{
+	color:#B42033;
+	font-family: "Cantata One";
+	text-align:center;
+	font-size:20px;
+}
+
+/*pictures*/
+.vote{
+	height:auto;
+	width:100%;
+}
+
+.ivote{
+	height:auto;
+	width:100%;
+}
+
+.voting{
+	height:auto;
+	width:75%;
+	padding-left:375px;
+}
+
+/*media*/
+@media screen and (max-width:770){
+	.vote,.voting,.bigcontainer,.bigcontainertwo{
+	display:none;
+}
+}
+
+
+@media screen and (max-width:414){
+h1{
+}
+.byline{
+	font-size:12px;
+}
+.intro{
+	font-size:14px;
+}
+.vote,.voting,.bigcontainer,.bigcontainertwo{
+	display:none;
+}
+.nixonwin,.gorewin,.bushwin,.trumpwin,.kennedywin,.carterwin,.bidenwin{
+	font-size:16px;
+}
+.kennedytext,.nixontext,.cartertext,.goretext,.bushtext,.trumptext,.bidentext{
+	font-size:12px;
+}
+.kennedy,.nixon,.carter,.gore,.bush,.trump,.biden{
+	font-size:20px;
+}
+.swingstate,.list{
+	font-size:25px;
+}
+.reasons,.who{
+	font-size:16px;
+}
+}
+
+@media screen and (max-width:375){
+h1{
+}
+.byline{
+	font-size:12px;
+}
+.intro{
+	font-size:14px;
+}
+.vote,.voting,.bigcontainer,.bigcontainertwo{
+	display:none;
+}
+.nixonwin,.gorewin,.bushwin,.trumpwin,.kennedywin,.carterwin,.bidenwin{
+	font-size:16px;
+}
+.kennedytext,.nixontext,.cartertext,.goretext,.bushtext,.trumptext,.bidentext{
+	font-size:12px;
+}
+.kennedy,.nixon,.carter,.gore,.bush,.trump,.biden{
+	font-size:20px;
+}
+.swingstate,.list{
+	font-size:25px;
+	padding-top:30px;
+}
+.reasons,.who{
+	font-size:16px;
+	padding-top:30px;
+}
+}
+/*Fonts*/
+font-family: 'Cantata One', serif;
+font-family: 'Imprima', sans-serif;
