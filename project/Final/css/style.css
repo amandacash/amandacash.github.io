@@ -1,15 +1,9 @@
-
-/*Colors
-red: B42033
-gray: CECECE
-white:FEFEFE
-blue: 3C3B6E*/
-
+/*beginning*/
 h1{
 	color:#3C3B6E;
-	text-align: center;
-	font-family:"Cantana One";
+	text-align:center;
 	padding-top:25px;
+	font-family:"Cantana One";
 }
 
 .byline{
@@ -26,29 +20,29 @@ h1{
 
 .fas{
 	color:#B42033;
-	text-orientation: center;
+	text-orientation:center;
 	padding-top:50px;
 }
 
-/*text*/
+/*introtext*/
 .intro{
-	font-family:"Imprima";
-	margin-left:250px;
-	margin-right:250px;
+	padding-left:250px;
+	padding-right:250px;
 	text-align:center;
 	padding-top:25px;
 	font-size:16px;
+	font-family:"Imprima";
 }
 
 .containerone{
-	padding-top:25px;
 	margin-left:325px;
 	margin-right:250px;
+	padding-top:25px;
 }
 
 .col{
-	font-family: "Imprima";
 	font-size:16px;
+	font-family: "Imprima";
 }
 .chart{
 	width:50%;
@@ -66,8 +60,8 @@ h1{
 	padding-bottom:20px;
 	padding-left:5px;
 	padding-right:5px;
-	font-family:"Cantata One";
 	font-size:16px;
+	font-family:"Cantata One";
 }
 
 .bigcontainertwo{
@@ -76,79 +70,73 @@ h1{
 	margin-right:250px;
 	padding-top:20px;
 	padding-bottom:20px;
-	font-family:"Cantata One";
 	font-size:16px;
+	font-family:"Cantata One";
 }
 
-.bigcontainerfour,.bigcontainersix,.bigcontainereight{
+.bigcontainerfour{
 	background-color:#CECECE;
 	padding-bottom:40px;
 }
 
+/*beforeexamples*/
 .extra{
-	font-family:"Imprima";
 	font-size:17px;
+	font-family:"Imprima";
 }
 
 .swingstate{
-	font-family:"Cantata One";
 	font-size:30px;
 	padding-top:40px;
 	text-decoration: underline black;
 	text-align:center;
 	text-underline-position: black;
+	font-family:"Cantata One";
 }
 
 .list{
-	font-family:"Cantata One";
 	font-size:30px;
 	padding-top:40px;
 	text-align:center;
 	text-decoration: underline black;
+	font-family:"Cantata One";
 }
 
 .listtwo{
-	font-family:"Cantata One";
 	font-size:15px;
 	text-align:center;
+	font-family:"Cantata One";
 }
 .major{
-	font-family:"Cantata One";
 	font-size:30px;
 	padding-top:60px;
 	text-decoration: underline black;
 	text-align:center;
 	text-underline-position: black;
-}
-.reasons, .who{
 	font-family:"Cantata One";
-	font-size:25px;
-	padding-top:60px;
-	text-align:center;
 }
 
-/*dem*/
-.kennedy,.nixon,.carter,.gore,.bush,.trump,.biden{
+/*Five examples*/
+.dem{
 	padding-top:50px;
 	color:black;
-	font-family: "Cantata One";
 	font-size:23px;
 	text-align:center;
+	font-family: "Cantata One";
 }
-.kennedywin,.carterwin,.bidenwin{
+
+.firstwin{
 	color:#3C3B6E;
 	font-family:"Cantata One";
 	font-size:20px;
 	text-align:center;
 }
-.kennedytext,.nixontext,.cartertext,.goretext,.bushtext,.trumptext,.bidentext{
+.prestext{
 	font-family:"Imprima";
 	font-size:16px;
-	text-align: center;
 }
 
-/*rep*/
-.nixonwin,.gorewin,.bushwin,.trumpwin{
+.secondwin{
 	color:#B42033;
 	font-family: "Cantata One";
 	text-align:center;
@@ -156,89 +144,96 @@ h1{
 }
 
 /*pictures*/
-.vote{
+.vote, .ivote{
 	height:auto;
-	width:100%;
-}
-
-.ivote{
-	height:auto;
-	width:100%;
+	max-width:100%;
 }
 
 .voting{
 	height:auto;
-	width:75%;
+	max-width:75%;
 	padding-left:375px;
+}
+
+/*endtext*/
+.reasons{
+	font-size:25px;
+	padding-top:30px;
+	text-align:center;
+	font-family:"Cantata One";
 }
 
 /*media*/
 @media screen and (max-width:770){
-	.vote,.voting,.bigcontainer,.bigcontainertwo{
-	display:none;
+	h1{
+		font-size:20px;
+		text-align:justify;
+	}
+	.intro,.reasons{
+		text-align:justify;
+	}
+	.bigcontainertwo{
+		display:none;
+	}
+	.prestext{
+		font-size:12px;
+	}
+	.voting{
+		display:none;
+	}
 }
-}
-
 
 @media screen and (max-width:414){
-h1{
-}
-.byline{
-	font-size:12px;
-}
-.intro{
-	font-size:14px;
-}
-.vote,.voting,.bigcontainer,.bigcontainertwo{
-	display:none;
-}
-.nixonwin,.gorewin,.bushwin,.trumpwin,.kennedywin,.carterwin,.bidenwin{
-	font-size:16px;
-}
-.kennedytext,.nixontext,.cartertext,.goretext,.bushtext,.trumptext,.bidentext{
-	font-size:12px;
-}
-.kennedy,.nixon,.carter,.gore,.bush,.trump,.biden{
-	font-size:20px;
-}
-.swingstate,.list{
-	font-size:25px;
-}
-.reasons,.who{
-	font-size:16px;
-}
+	h1{
+		font-size:16px;
+		text-align:justify;
+	}
+	.intro,.reasons{
+		text-align:justify;
+	}
+	.bigcontainertwo{
+		display:none;
+	}
+	.prestext{
+		font-size:12px;
+	}
+	.voting,.blockquote,.swingstate,.listtwo,.ElectoralVotes{
+		display:none;
+	}
+	.vote{
+		display:none;
+	}
 }
 
 @media screen and (max-width:375){
-h1{
+	h1{
+		font-size:14px;
+		text-align:justify;
+	}
+	.far,.fas{
+		display:hidden;
+	}
+	.byline{
+		font-size:12px;
+		text-align:justify;
+		padding-left:0;
+		padding-right:0;
+	}
+	.intro{
+		margin-left:none;
+	}
+	.bigcontainertwo{
+		display:none;
+	}
+	.prestext{
+		font-size:12px;
+	}
+	.voting,.blockquote,.extra,.listtwo,.ElectoralVotes,.far,.fas{
+		display:none;
+	}
 }
-.byline{
-	font-size:12px;
-}
-.intro{
-	font-size:14px;
-}
-.vote,.voting,.bigcontainer,.bigcontainertwo{
-	display:none;
-}
-.nixonwin,.gorewin,.bushwin,.trumpwin,.kennedywin,.carterwin,.bidenwin{
-	font-size:16px;
-}
-.kennedytext,.nixontext,.cartertext,.goretext,.bushtext,.trumptext,.bidentext{
-	font-size:12px;
-}
-.kennedy,.nixon,.carter,.gore,.bush,.trump,.biden{
-	font-size:20px;
-}
-.swingstate,.list{
-	font-size:25px;
-	padding-top:30px;
-}
-.reasons,.who{
-	font-size:16px;
-	padding-top:30px;
-}
-}
+
+
 /*Fonts*/
 font-family: 'Cantata One', serif;
 font-family: 'Imprima', sans-serif;
